@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { useState } from "react";
-import useHTTP from "../../hooks/use-http";
 import CartContext from "../../store/cart-context";
 import Modal from "../UI/Modal";
 import classes from "./Cart.module.css";

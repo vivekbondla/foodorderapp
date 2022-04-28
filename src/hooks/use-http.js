@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 const useHTTP = (requestConf, applyData) => {
     const [isLoading,setIsLoading]= useState(false);

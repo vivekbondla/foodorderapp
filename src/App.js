@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <Suspense fallback={<p>loading....</p>}>
+    <Suspense fallback={<p>loading..</p>}>
       <CartProvider>
         {showCart && <Cart onHideCart={hideCartHandler} />}
         <Header onShowCart={cartShowHandler} />
